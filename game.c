@@ -15,7 +15,7 @@
 
 //place function prototypes here
 
-
+void printInitialsAjewett(void);
 
 
 
@@ -80,6 +80,7 @@ int main(int argc, char *argv[])
 			case 9:
 			{
 				puts("room9");
+				printInitialsAjewett();
 				break;
 			}
 			case 10:
@@ -423,3 +424,8 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
+void printInitialsAjewett(void)
+{
+	printf("AJ\n");
+}
