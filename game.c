@@ -24,7 +24,7 @@ void printInitialsAjewett(void);
 
 void jgFun(void);
 
-
+void printInitialsSMarkos(void);
 
 
 
@@ -333,6 +333,7 @@ int main(int argc, char *argv[])
                         }
 			case 58:
                         {
+				printInitialsSMarkos();
                                 puts("room58");
                                 break;
                         }
@@ -457,4 +458,8 @@ void jgFun(void)
 {
 	printf("JGB");	
 
+}
+void printInitialsSMarkos(void) 
+{
+	printf("SM\n");
 }
