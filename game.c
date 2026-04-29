@@ -40,6 +40,8 @@ void ip21(void);
 
 void folksamEV(void);
 
+void sonionRH(void);
+
 void ip21(void);
 
 
@@ -262,6 +264,11 @@ int main(int argc, char *argv[])
 				break;
 			}
 			case 34:
+			{
+				puts("room34");
+				break;
+			}
+			case 35:
 			{
 				puts("room35");
 				break;
@@ -535,6 +542,11 @@ void theSigmaMethod(void)
 void folksamEV(void) 
 {
 	printf("EV\n");
+}
+
+void sonionRH(void) 
+{
+	printf("RAW-HIG\n");
 }
 
 void jbInit()
